@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.env
+
+# Datasets and Large Log Files
+data/output.xml
+data/poc_dataset/
+data/audit_logs/
+data/cli_responses/
+data/debug_logs/
+data/debug_script_logs/
+data/execution_log/
+*.xml
+*.log
+*.log.txt
+*.csv
+
+# HTML Reports
+data/TestCases Report.html
+*.html
+
+# Architecture Documents / Binary Files
+architecture-plan/*.pdf
+architecture-plan/*.docx
+
+# IDEs and OS Files
+.vscode/
+.idea/
+.DS_Store
