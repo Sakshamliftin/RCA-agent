@@ -10,7 +10,6 @@ from src.parsers.deep_xml_parser import DeepXMLParser
 from src.rule_engine import RuleEngine
 from src.llm_analyzer import LLMAnalyzer
 
-# Use provided Gemini key (moved from global scope for better practice)
 os.environ["GEMINI_API_KEY"] = "AQ.Ab8RN6KVl1L-xvHCLsfCo8vNL9ZrLruUk4tAlz3b_AnILc-7Qw"
 
 class LocalRCAPipeline:
